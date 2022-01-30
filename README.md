@@ -1,7 +1,7 @@
 ## ibm-ds-ml-capstone-project
 IBM Data Science and Machine Learning Capstone Project
 
-###Problem Statement
+### Problem Statement
 The people of New Yorker use the 311 system to report complaints about the non-emergency problems to local authorities. Various agencies in New York are assigned these problems. The Department of Housing Preservation and Development of New York City is the agency that processes 311 complaints that are related to housing and buildings.
 
 In the last few years, the number of 311 complaints coming to the Department of Housing Preservation and Development has increased significantly. Although these complaints are not necessarily urgent, the large volume of complaints and the sudden increase is impacting the overall efficiency of operations of the agency.
@@ -15,17 +15,17 @@ The agency needs answers to several questions. The answers to those questions mu
 3. Does the Complaint Type that you identified in response to question 1 have an obvious relationship with any particular characteristic or characteristics of the houses or buildings?
 4. Can a predictive model be built for a future prediction of the possibility of complaints of the type that you have identified in response to question 1?
 
->Your organization has assigned you as the lead data scientist to provide the answers to these questions. You need to work on getting answers to them in this Capstone Project by following the standard approach of data science and machine learning.
+> Your organization has assigned you as the lead data scientist to provide the answers to these questions. You need to work on getting answers to them in this Capstone Project by following the standard approach of data science and machine learning.
 
 IMPORTANT NOTE!
 The datasets for this project can be accessed from following links. I also added datasets that I've used. They are part of orignal datasets. Original 311 dataset is too big for uploadng so I decided to remove some unnecessary columns.
 
-###311 complaint dataset
+### 311 complaint dataset
 This dataset is available at [City of NewYork website- 311 Service requests from 2010](https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9). You can download a part of this data by using SODA API.
 
 Download only the data that is related to the Department of Housing Preservation and Development. Also, restrict your data to the limited number of fields. Otherwise, your data size will be unnecessarily large, and it might not work in the Watson Studio environment. Too much data can also be very slow to process and analyze.
 
-###PLUTO dataset for housing
+### PLUTO dataset for housing
 This dataset for housing can also be accessed from [City of NewYork website- Primary land use tax](https://data.cityofnewyork.us/City-Government/Primary-Land-Use-Tax-Lot-Output-PLUTO-/xuk2-nczf). After you download the data, use only the part that is specific to the borough that you are interested in based on your analysis.
 
->Kindly use this just for refrence purposes only :stuck_out_tongue_winking_eye:
+> Kindly use this just for refrence purposes only :stuck_out_tongue_winking_eye:
